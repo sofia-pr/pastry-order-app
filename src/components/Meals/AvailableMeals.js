@@ -5,35 +5,38 @@ import MealItem from "./MealItem/MealItem";
 const DUMMY_MEALS = [
   {
     id: "m1",
-    name: "Sushi",
-    description: "Finest fish and veggies",
-    price: 22.99,
+    name: "Muffin de arándanos",
+    description: "Mufin relleno de arándanos dulces y jugosos.",
+    price: 3.9,
   },
   {
     id: "m2",
-    name: "Schnitzel",
-    description: "A german specialty!",
-    price: 16.5,
+    name: "Lemon Pie",
+    description:
+      "Crujiente base de masa quebrada, crema de limón y terminación de merengue italiano.",
+    price: 5.7,
   },
   {
     id: "m3",
-    name: "Barbecue Burger",
-    description: "American, raw, meaty",
-    price: 12.99,
+    name: "Cheesecake",
+    description:
+      "Base de galleta crujiente, crema de queso y frutos del bosque.",
+    price: 5.9,
   },
   {
     id: "m4",
-    name: "Green Bowl",
-    description: "Healthy...and green...",
-    price: 18.99,
+    name: "Sacher",
+    description:
+      "Dos gruesas capas de esponjoso bizcocho de chocolate, rellenas de mermelada de durazno y cubiertas en un brillante glaseado de chocolate negro.",
+    price: 4.9,
   },
 ];
 
 const AvailableMeals = () => {
   const mealList = DUMMY_MEALS.map((meal) => (
     <MealItem
-      id={meal.id}
       key={meal.id}
+      id={meal.id}
       name={meal.name}
       description={meal.description}
       price={meal.price}
