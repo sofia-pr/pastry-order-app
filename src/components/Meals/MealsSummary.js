@@ -1,16 +1,16 @@
-import classes from './MealsSummary.module.css';
+import classes from "./MealsSummary.module.css";
 
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+      <h2>La pastelería mas fina, a la puerta de su casa...</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Elija su postre favorito de nuestra amplia selección y disfrute de un
+        delicioso desayuno o merienda en casa.
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Todos nuestros productos con frescos y se elaboran con ingredientes de
+        alta calidad por pasteleros experimentados!
       </p>
     </section>
   );
